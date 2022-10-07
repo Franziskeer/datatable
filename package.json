@@ -1,0 +1,34 @@
+{
+  "name": "@franzisker/datatable",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/@franzisker/datatable.umd.js",
+  "module": "./dist/@franzisker/datatable.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/@franzisker/datatable.es.js",
+      "export": "./dist/@franzisker/datatable.umd.js"
+    }
+  },
+  "version": "1.0.3",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "publish": "npm publish --access public"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.1.0",
+    "@vitejs/plugin-vue-jsx": "^2.0.1",
+    "sass": "^1.55.0",
+    "vite": "^3.1.0",
+    "vite-plugin-windicss": "^1.8.8",
+    "vue": "^3.2.40",
+    "windicss": "^3.5.6"
+  },
+  "dependencies": {
+    "@franzisker/datatable": "^1.0.0"
+  }
+}

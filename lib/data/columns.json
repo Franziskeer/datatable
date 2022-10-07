@@ -1,0 +1,19 @@
+[
+	{
+		"label": "#",
+		"field": "id",
+		"sortable": true
+	},
+	{
+		"label": "Name",
+		"field": "name",
+		"width": "50%",
+		"sortable": true
+	},
+	{
+		"label": "Email",
+		"field": "email",
+		"width": "50%",
+		"sortable": false
+	}
+]

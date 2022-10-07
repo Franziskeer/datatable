@@ -1,0 +1,44 @@
+{
+	"title": "Heading title",
+	"selectable": false,
+	"visibleBtns": 5,
+	"rowCount": 5,
+	"rowCountItems": [5, 10, 25, 50],
+	"classes": {
+		"container": "rounded shadow border border-gray-200 bg-white dark:(bg-dark-600 border-gray-600)",
+		"heading": {
+			"container": "px-4 py-2 text-xl"
+		},
+		"content": {
+			"container": "overflow-x-auto",
+			"table": "w-full text-left",
+			"thead": "",
+			"tbody": "",
+			"tr": "border-b border-gray-200",
+			"th": "",
+			"heading": {
+				"container": "flex items-center justify-start space-x-2 px-4 py-2",
+				"sortBtn": "w-full",
+				"title": "text-base font-bold"
+			},
+			"td": "px-4 py-2",
+			"empty": "px-4 py-2 text-gray-400"
+		},
+		"footer": {
+			"container": "grid grid-cols-2",
+			"rowCount": {
+				"container": "col-span-2 md:(col-span-1 justify-self-start) px-4 py-2 justify-self-center self-center",
+				"label": "text-sm mr-2",
+				"select": "pl-2 pr-8 text-sm rounded border-gray-200 dark:(bg-dark-600 border-gray-600)"
+			},
+			"pagination": {
+				"container": "col-span-2 md:(col-span-1 justify-end) flex justify-center",
+				"groupBtn": "rounded text-blue-400 mx-4 my-2 ring-2 inline-flex",
+				"pageBtn": "w-8 h-8 flex items-center justify-center hover:(bg-blue-400 text-white)",
+				"activeBtn": "bg-blue-400 text-white",
+				"prevBtn": "rounded-l",
+				"nextBtn": "rounded-r"
+			}
+		}
+	}
+}
