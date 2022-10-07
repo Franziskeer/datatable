@@ -9,8 +9,6 @@ This package let you create a datatable component for Vue.js fully customizable.
     -   [Options](#options)
 -   [Slots](#slots)
 
-#
-
 ## **Basic usage**
 
 ```js
@@ -26,8 +24,6 @@ import { DataTable } from "@franzisker/datatable";
 If you don't use any property, the table will render as shown in the image below.
 
 <img src="docs/basic_usage.png" alt="Basic usage example" width="200" >
-
-#
 
 ## **Properties**
 
@@ -135,8 +131,6 @@ Here are the default classes used to build this layouts, but you can always over
 	}
 }
 ```
-
-#
 
 ## **Slots**
 
