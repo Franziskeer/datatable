@@ -18,12 +18,13 @@
   "bugs": {
     "url": "https://github.com/Franziskeer/datatable/issues"
   },
-  "version": "1.1.0",
+  "version": "1.1.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "pub-patch": "npm version patch --force && npm publish --access public",
     "pub-minor": "npm version minor --force && npm publish --access public",
     "pub-major": "npm version major --force && npm publish --access public"
   },
